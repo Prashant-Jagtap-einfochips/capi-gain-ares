@@ -29,14 +29,12 @@ include_directories(
 	"./api"
 	"./capi/inc"
 	"./capi/src"
-	"/home/einfochips/Qualcomm/5.4.0.3/addons/audio/spf/examples/capi_gain/lib"	
 	)
 
 add_library(capi_gain
 	SHARED
 	capi/src/capi_gain.c
-	#capi/src/capi_decimate_block.c
 	capi/src/capi_gain_utils.c
-	lib/src/gain_lib.c
+	capi/src/gain_lib.c
 	)
 
