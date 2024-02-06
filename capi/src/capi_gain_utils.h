@@ -28,7 +28,8 @@
 #endif
 
 #include "gain_module_api.h"
-#include "gain_lib.h"
+//#include "../inc/capi_gain.h"
+#include "../../lib/inc/gain_lib.h"
 
 #if defined(__cplusplus)
 extern "C" {
