@@ -35,6 +35,6 @@ add_library(capi_gain
 	SHARED
 	capi/src/capi_gain.c
 	capi/src/capi_gain_utils.c
-	capi/src/gain_lib.c
+	lib/src/gain_lib.c
 	)
 
